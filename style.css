@@ -1,0 +1,82 @@
+body {
+    background-image: url("abstract.jpg");
+    background-position: center;
+    max-width: 100%;
+    background-size: cover;
+    text-align: center;
+    background-color: #03011f;
+    font-family: "Source Sans Pro";
+    color: #6cacc5;
+  }
+  
+  h1{
+    color: #6cacc5;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding: 205px;
+  }
+ 
+  #lcshdr{
+    background-color:rgba(42,50,113, .28);
+    padding-top: auto;
+    margin: 5px;
+    border: #6cacc5 3px solid;
+  }
+
+#lcshdr h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bolder;
+    margin: 6px;
+    text-align: center;
+}
+#lcshdr h2:hover{
+    color: #6cacc5;
+}
+
+#lcshdr h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6cacc5;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 6px;
+    text-align: center;
+}
+#logo{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 10%;
+   }
+  
+  #time {
+    font-size: 70px;
+    position: absolute;
+    top: 25%;
+    margin: 0 auto;
+    left: 0; right: 0;
+    padding-top: 220px;
+  }
+
+  .buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .button {
+    width: 100px;
+    padding: 2% 2%;
+    font-size: 20px;
+    background: rgba(42,50,113, .28);
+    cursor: pointer;
+    border: #6cacc5 3px solid;
+  }
+  
+  .button:hover {
+    background: #201e40;
+  }
